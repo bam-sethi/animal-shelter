@@ -1,4 +1,4 @@
-var mongoose = reqiore('mongoose');
+var mongoose = require('mongoose');
 
 //schemaaaaa
 
@@ -14,7 +14,7 @@ var animalSchema = new mongoose.Schema({
   updatedAt: Date
 })
 
-var Animal = mondoose.model('Animal', animalSchema)
+var Animal = mongoose.model('Animal', animalSchema)
 
 //export, make this model accesible to app.js
 module.exports = Animal;
